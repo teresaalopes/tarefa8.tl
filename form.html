@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <img id="imghead" src="images/logo1.png">
+    </header>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="form">
+                    <h1>Criar Conta</h1>
+                    <input type="text" id="txtnome" placeholder="Nome Completo">
+                    <input type="email" id="txtemail" placeholder="EMail">
+                    <input type="password" id="txtpass" placeholder="Senha">
+                    <input type="password" id="txtpassw" placeholder="Confirmar Senha">
+
+                    <label for="dtnasc">Data de Nascimento</label>
+                    <input type="date" id="dtnasc" placeholder="Data de Nascimento">
+
+                    
+                    <input type="radio" id="btnmasc" name="genero"><label for="btnmasc">Masculino</label>
+                    <input type="radio" id="btnfem" name="genero"><label for="btnfem">Feminino</label>
+                    <input type="radio" id="btnbin" name="genero"><label for="btnbin">Não Binário</label>
+                    <input type="number" id="txttel" placeholder="Telefone">
+
+                    <input type="text" id="txtend" placeholder="Endereço">
+                    <input type="text" id="txtand" placeholder="Andar/Porta">
+                    <input type="number" id="txtcp" placeholder="Código Postal">
+                    <input type="text" id="txtloc" placeholder="Localidade">
+                    
+                    <select id="txtdist">
+                        <option selected disabled>Distrito</option>
+                        <option>Açores</option>
+                        <option>Aveiro</option>
+                        <option>Beja</option>
+                        <option>Braga</option>
+                        <option>Bragança</option>
+                        <option>Castelo Branco</option>
+                        <option>Coimbra</option>
+                        <option>Evora</option>
+                        <option>Faro</option>
+                        <option>Guarda</option>
+                        <option>Leiria</option>
+                        <option>Lisboa</option>
+                        <option>Madeira</option>
+                        <option>Portalegre</option>
+                        <option>Porto</option>
+                        <option>Santarém</option>
+                        <option>Setúbal</option>
+                        <option>Viana do Castelo</option>
+                        <option>Vila Real</option>
+                        <option>Viseu</option>
+                    </select>
+                    
+                    <select id="cmbpais">
+                        <option selected disabled>País</option>
+                        <option>Alemanha</option>
+                        <option>Áustria</option>
+                        <option>Bélgica</option>
+                        <option>Bulgária</option>
+                        <option>Ilhas Canárias</option>
+                        <option>Croácia</option>
+                        <option>Dinamarca</option>
+                        <option>Eslováquia</option>
+                        <option>Eslovênia</option>
+                        <option>Espanha</option>
+                        <option>Estônia</option>
+                        <option>Finlândia</option>
+                        <option>França</option>
+                        <option>Grécia</option>
+                        <option>Holanda</option>
+                        <option>Hungria</option>
+                        <option>Irlanda</option>
+                        <option>Itália</option>
+                        <option>Letônia</option>
+                        <option>Lituânia</option>
+                        <option>Luxemburgo</option>
+                        <option>Malta</option>
+                        <option>Polônia</option>
+                        <option>Portugal</option>
+                        <option>Reino Unido</option>
+                        <option>República Tcheca</option>
+                        <option>Romênia</option>
+                        <option>Suécia</option>
+                    </select>
+                    <textarea id="txtobs" placeholder="OBSERVAÇÕES"></textarea>
+                    <input type="checkbox" name="privpol" id="btncom"><label for="btncom"> Quero receber comunicações comerciais
+                        personalizadas através do email.</label>
+                    <br><input type="checkbox" name="privpol" id="btnpp"><label for="btnpp"> Li e aceito a Política de 
+                        Privacidade e Cookies</label>
+                    <button id="btnguardar">GUARDAR</button>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img id="imgsignin" src="images/pic-signin1.jpg" alt="user_form">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

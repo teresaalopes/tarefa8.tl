@@ -1,0 +1,58 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+h1{
+    text-align: left;
+    font-style: italic;
+    padding: 25px;
+}
+#imghead{
+    width: 20%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imgsignin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.form{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.form input, .form button, .form textarea, .form select{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 27px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.form input[type=radio]{
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 0 30px;
+}
+.form input[type=checkbox]{
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 0 0;
+}
+.form input::placeholder, .form textarea::placeholder{
+    text-indent: 10px;
+    color: grey;
+}
+#txtobs{
+    height: 50px;
+}
+#btnmasc{
+    margin: 0 5px 0 0;
+}
+#btnguardar:hover{
+    background-color: black;
+    color: lightgrey;
+}
